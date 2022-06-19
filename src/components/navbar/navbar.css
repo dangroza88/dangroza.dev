@@ -82,7 +82,7 @@ ul {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 90px;
+        top: 60px;
         flex-direction: column;
         background-color: #7DA2A9;
         /* width: 100%; */
