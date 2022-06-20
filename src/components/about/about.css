@@ -16,6 +16,7 @@
 
 .about2 {
     flex:1;
+    margin: 50px;
 }
 
 .about-card.bg{
@@ -23,6 +24,7 @@
     top: 50px;
     left: 50px;
     background-color: #7DA2A9;
+    right: 50px;
 }
 
 .about-card {
@@ -35,7 +37,7 @@
 
 .about-img {
     width: 100%;
-    height: %;
+    height: 100%;
 
 }
 

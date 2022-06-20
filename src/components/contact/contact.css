@@ -26,8 +26,8 @@
 }
 
 .contact-title {
-    font-size: 60px;
-    width: 80%;
+    font-size: 50px;
+    width: 100%;
 }
 
 .contact-info-items{
@@ -72,6 +72,7 @@ button {
     color: white;
     font-weight: 500;
     cursor: pointer;
+    width: 20%;
 }
 
 .contact-desc {

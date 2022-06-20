@@ -9,12 +9,15 @@
     overflow: hidden;
     background-color: #7DA2A9;
     text-decoration: none;
+    cursor: pointer;
     
 }
 
 
 .logo img {
-    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
 }
 .header .navbar {
     display: flex;
@@ -34,11 +37,6 @@ ul {
 
 .header .nav-menu a {
     color: black;
-}
-
-.header .navbar img {
-    width: 250px;
-    height: auto;
 }
 
 .header .nav-menu {
@@ -100,8 +98,10 @@ ul {
         margin: 1.5rem 0;
     }
 
-    .header .navbar img {
-        width: 150px;
+    .logo img {
+        width: 50px;
+        display: flex;
+        align-items: center;
     }
 }
 
