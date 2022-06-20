@@ -10,21 +10,16 @@ import React, { useState } from 'react';
 const Contact = () => {
     const formMod = useRef()
 
-
-    const [value, setValue] = useState()
-
-    const refresh = () => {
-        setValue({});
-    }
-    // whyyy ????
-
     const handleSubmit = (e) => {
+        // debugger
         e.preventDefault();
         emailjs.sendForm('service_3kor203', 'template_3mn3loa', formMod.current, 'xtmnKNK8t2k-K2XHk')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset()
             }, (error) => {
                 console.log(error.text);
+                alert("Ups - Something went wrong! Retry ")
             });
     }
 
@@ -63,7 +58,7 @@ const Contact = () => {
                         <input type="text" placeholder="Subject" name="user_subject" />
                         <input type="text" placeholder="Email" name="user_email" />
                         <textarea rows="5" placeholder="Message" name="message"></textarea>
-                        <button   >Send</button>
+                        <button >Send</button>
                     </form>
                 </div>
             </div>
