@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import prog from "../img/prog.jpg"
+import file from "../img/file.png"
+import sample from "../download/sample.pdf"
 
 const About = () => {
     return (
@@ -20,6 +22,12 @@ const About = () => {
                 <p className="about-desc2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, laboriosam atque ducimus neque, culpa assumenda quod molestiae necessitatibus enim consequatur omnis dolores optio ut quidem reprehenderit eaque? Earum quos error numquam laudantium debitis dolores veritatis ad quidem corrupti! Veniam, unde?
                 </p>
+                <div className="download">
+                    <h3 className="cv">My Resume </h3>
+                    <a href={sample} download>
+                        <img src={file} alt="" />
+                    </a>
+                </div>
             </div>
         </div>
     )
