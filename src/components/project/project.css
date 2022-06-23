@@ -31,15 +31,15 @@
     display: block;
     background-size: cover;
     background: no-repeat;
-    
-    
+
+
 }
 
 /* .prj:hover .prj-img{
     transform: translateY(-100%);
 } */
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,7 +64,7 @@
     /* background: #009578; */
 }
 
-.overlay > * {
+.overlay>* {
     transform: translateY(400px);
     /* transition: transform 0.25s; */
     transition: all 1s ease;
@@ -74,7 +74,7 @@
     opacity: 1;
 }
 
-.overlay:hover > * {
+.overlay:hover>* {
     transform: translateY(0);
 }
 
@@ -90,8 +90,8 @@
 
 
 
-@media screen and (max-width: 480px){
-    .prj{
+@media screen and (max-width: 480px) {
+    .prj {
         width: 40%;
         height: 20vh;
     }
