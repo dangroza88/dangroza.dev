@@ -19,8 +19,9 @@ const Intro = () => {
                             <div className="intro-title-item">Project Manager</div>
                         </div>
                     </div>
+
                     <div className="intro-desc">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, magni!
+                    A highly enthusiastic team player aspiring to work with a team of motivated professionals in a challenging environment.
                     </div>
                 </div>
             </div>

@@ -16,11 +16,11 @@ const About = () => {
             <div className="about2">
                 <h1 className="about-title">About Me</h1>
                 <p className="about-desc1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nemo vitae obcaecati minima numquam ratione!
+                    Analytical, result-oriented professional with 9+ years of experience in banking.
                 </p>
                 <br />
                 <p className="about-desc2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, laboriosam atque ducimus neque, culpa assumenda quod molestiae necessitatibus enim consequatur omnis dolores optio ut quidem reprehenderit eaque? Earum quos error numquam laudantium debitis dolores veritatis ad quidem corrupti! Veniam, unde?
+                    Eager to launch and enhance my front-end web developer career while working in an environment that will challenge me further, allowing me to contribute to the continued growth and success of the organization.
                 </p>
                 <div className="download">
                     <h3 className="cv">My Resume </h3>

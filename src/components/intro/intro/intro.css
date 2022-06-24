@@ -41,6 +41,10 @@
 
 }
 
+.intro-desc {
+    margin-top: 20px;
+}
+
 @keyframes move {
     25%{
         transform: translateY(-50px);

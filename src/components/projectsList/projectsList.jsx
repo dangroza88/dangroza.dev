@@ -4,21 +4,21 @@ import { projects } from "../../data"
 import cbox from "../img/cbox.png"
 
 
-const ProjectList = () =>{
+const ProjectList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Create & inspire</h1>
+                <h1 className="pl-title">Projects and samples.</h1>
                 <p className="pl-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam debitis optio nam architecto doloremque labore aliquam in eaque enim consequatur, vel deserunt praesentium dolore animi iure, quod qui ipsa provident.
+                It is mostly boilerplate projects that are not finalized. I do not feel that they are accurate representations but it will give you a sense of the technologies that i work with frequently. 
                 </p>
             </div>
             <div className="pl-list">
-                {projects.map(item=>(
-                    <Project key={item.id} img={item.img} link={item.link} title={item.title} description={item.description}/>
+                {projects.map(item => (
+                    <Project key={item.id} img={item.img} link={item.link} title={item.title} description={item.description} />
                 ))}
-                
-                
+
+
             </div>
         </div>
     )

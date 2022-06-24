@@ -50,9 +50,9 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact2">
-                    <p className="contact-desc">
+                    {/* <p className="contact-desc">
                         <b>What`s you story ?</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veritatis aliquam quidem necessitatibus animi doloremque, ab quas blanditiis fugit, iure, minima quae nesciunt. Aliquam in porro culpa expedita delectus minima eius asperiores repudiandae rerum quod qui quisquam doloremque, earum aut magnam natus temporibus ea ducimus quasi iure accusamus officiis eveniet.
-                    </p>
+                    </p> */}
                     <form ref={formMod} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
                         <input type="text" placeholder="Subject" name="user_subject" />
