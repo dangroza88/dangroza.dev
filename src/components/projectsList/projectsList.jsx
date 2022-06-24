@@ -1,6 +1,7 @@
 import "../projectsList/projectsList.css"
 import Project from "../project/project"
 import { projects } from "../../data"
+import cbox from "../img/cbox.png"
 
 
 const ProjectList = () =>{
