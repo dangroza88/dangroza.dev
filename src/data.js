@@ -2,7 +2,7 @@
 export const projects = [
     {
         id: 1,
-        img: "./src/components/img/c.box.png",
+        img: "./src/components/img/commentjpg.JPG",
         title: "Comment Box",
         description: "lorem bla bla bla ",
         link: "http://www.patience-is-a-virtue.org/"
