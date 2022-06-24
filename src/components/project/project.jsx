@@ -15,7 +15,6 @@ const Project = ({ img, link, title, description }) => {
                     <h1 className="overlay-title">{title}</h1>
                     <h5 className="overlay-description">{description}</h5>
                 </div>
-
             </a>
         </div>
     )
