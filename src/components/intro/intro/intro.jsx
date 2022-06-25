@@ -21,7 +21,7 @@ const Intro = () => {
                     </div>
 
                     <div className="intro-desc">
-                    A highly enthusiastic team player aspiring to work with a team of motivated professionals in a challenging environment.
+                    A highly enthusiastic team player, aspiring to work with a team of motivated professionals in a challenging environment.
                     </div>
                 </div>
             </div>

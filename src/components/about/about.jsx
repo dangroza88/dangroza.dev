@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import prog from "../img/prog.jpg"
 import file from "../img/file.png"
-import sample from "../download/sample.pdf"
+import resume from "../download/danresume.pdf"
 
 const About = () => {
     return (
@@ -24,7 +24,7 @@ const About = () => {
                 </p>
                 <div className="download">
                     <h3 className="cv">My Resume </h3>
-                    <a href={sample} download>
+                    <a href={resume} download>
                         <img src={file} alt="" />
                     </a>
                 </div>

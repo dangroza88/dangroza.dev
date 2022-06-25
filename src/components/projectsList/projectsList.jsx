@@ -10,7 +10,7 @@ const ProjectList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">Projects and samples.</h1>
                 <p className="pl-desc">
-                It is mostly boilerplate projects that are not finalized. I do not feel that they are accurate representations but it will give you a sense of the technologies that i work with frequently. 
+                Mostly boilerplate projects, that will give you a glimpse of the technologies that i've started to work with.<br/> Looking forward, determined to improve. 
                 </p>
             </div>
             <div className="pl-list">
