@@ -124,3 +124,11 @@ button {
 
 }
 
+@media screen and (max-width: 1300px){
+    .intro-title-item {
+        font-size: 20px;
+        
+    }
+
+}
+
