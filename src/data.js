@@ -1,8 +1,9 @@
+import cbox from "./components/img/cbox.png"
 
 export const projects = [
     {
         id: 1,
-        img: "./src/components/img/cbox.png",
+        img: cbox,
         title: "Comment Box",
         description: "HTML-CSS-JavaScript ",
         link: "http://www.patience-is-a-virtue.org/"
