@@ -1,7 +1,7 @@
 import "../projectsList/projectsList.css"
 import Project from "../project/project"
 import { projects } from "../../data"
-import cbox from "../img/cbox.png"
+
 
 
 const ProjectList = () => {
@@ -10,7 +10,7 @@ const ProjectList = () => {
             <div className="pl-texts">
                 <h1 className="pl-title">Projects and samples.</h1>
                 <p className="pl-desc">
-                Mostly boilerplate projects, that will give you a glimpse of the technologies that i've started to work with.<br/> Looking forward, determined to improve. 
+                    Mostly boilerplate projects, that will give you a glimpse of the technologies that i've started to work with.<br /> Looking forward, determined to improve.
                 </p>
             </div>
             <div className="pl-list">

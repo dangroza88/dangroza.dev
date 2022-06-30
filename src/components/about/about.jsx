@@ -15,6 +15,7 @@ const About = () => {
             </div>
             <div className="about2">
                 <h1 className="about-title">About Me.</h1>
+                <br />
                 <p className="about-desc1">
                     Analytical, result-oriented professional with 9+ years of experience in banking.
                 </p>

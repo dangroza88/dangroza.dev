@@ -1,4 +1,9 @@
-import cbox from "./components/img/cbox.png"
+import cbox from "./components/img/commentbox.png"
+import monster from "./components/img/monstershooter.png"
+import ryan from "./components/img/privateryan.png"
+import todo from "./components/img/todolist.png"
+import rome from "./components/img/visitrome.png"
+
 
 export const projects = [
     {
@@ -6,35 +11,35 @@ export const projects = [
         img: cbox,
         title: "Comment Box",
         description: "HTML-CSS-JavaScript ",
-        link: "http://www.patience-is-a-virtue.org/"
+        link: "https://github.com/dangroza88/SIIT_DAN_GROZA/tree/main/05_week"
     },
     {
         id: 2,
-        img: "./src/components/img/monster.jpg",
+        img: monster,
         title: "Monster Shooter Game",
         description: "HTML-CSS-JavaScript ",
-        link: "http://www.patience-is-a-virtue.org/"
+        link: "https://github.com/dangroza88/SIIT_DAN_GROZA/tree/main/11_week"
     },
     {
         id: 3,
-        img: "./src/components/img/private.jpg",
+        img: ryan,
         title: "Saving Private Ryan Game",
         description: "HTML-CSS-JavaScript ",
-        link: "http://www.patience-is-a-virtue.org/"
+        link: "https://github.com/dangroza88/SIIT_DAN_GROZA/tree/main/06_work"
     },
     {
         id: 4,
-        img: "./src/components/img/todo.jpg",
+        img: todo,
         title: "To Do List",
         description: "HTML-CSS-JavaScript",
-        link: "http://www.patience-is-a-virtue.org/"
+        link: "https://github.com/dangroza88/SIIT_DAN_GROZA/tree/main/08_work"
     },
     {
         id: 5,
-        img: "./src/components/img/rome.jpg",
+        img: rome,
         title: "Visite Rome Website",
         description: "React & Node.JS ",
-        link: "http://www.patience-is-a-virtue.org/"
+        link: "https://github.com/dangroza88/visitRome.git"
     },
     // {
     //     id: 6,
