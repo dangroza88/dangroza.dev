@@ -37,7 +37,7 @@ export const projects = [
     {
         id: 5,
         img: rome,
-        title: "Visite Rome Website",
+        title: "Visit Rome Website",
         description: "React & Node.JS ",
         link: "https://github.com/dangroza88/visitRome.git"
     },
